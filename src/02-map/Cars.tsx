@@ -14,6 +14,7 @@ export const Cars = (props: CarsListType) => {
     return (
         <>
             <table className={styles.table}>
+                <tbody>
                 {props.cars.map((el, ind) => {
                     return (
                         <tr key={ind}>
@@ -23,6 +24,7 @@ export const Cars = (props: CarsListType) => {
                         </tr>
                     )
                 })}
+                </tbody>
             </table>
         </>
     )
