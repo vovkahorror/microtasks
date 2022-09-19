@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import {Cars} from "./02-map/Cars";
 import {Button} from "./03-Button/Button";
+import {GetEnlarge} from "./04-useState/GetEnlarge";
 
 function App() {
     const topCars = [
@@ -29,6 +30,9 @@ function App() {
             <Button name={'My Yotube Chanel - 1'} callBack={() => button1Foo('Vasya', 30, 'Kyiv')}/>
             <Button name={'My Yotube Chanel - 2'} callBack={() => button2Foo('Petya')}/>
             <Button name={'Stupid Button'} callBack={button3Foo}/>
+
+            <hr/>
+            <GetEnlarge/>
         </>
     );
 }
