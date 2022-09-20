@@ -3,6 +3,7 @@ import './App.css';
 import {Cars} from "./02-map/Cars";
 import {Button} from "./03-Button/Button";
 import {GetEnlarge} from "./04-useState/GetEnlarge";
+import {GetMoney} from "./05-filter/GetMoney";
 
 function App() {
     const topCars = [
@@ -33,6 +34,9 @@ function App() {
 
             <hr/>
             <GetEnlarge/>
+
+            <hr/>
+            <GetMoney/>
         </>
     );
 }
